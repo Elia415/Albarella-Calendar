@@ -43,7 +43,7 @@ export default function RootLayout({
               />
             </a>
             <div className="flex-1 flex justify-center mr-12 md:mr-20 lg:mr-40">
-              <h1 className="text-primary font-bold text-xl md:text-3xl lg:text-5xl whitespace-nowrap">Calendario Eventi</h1>
+              <h1 className="text-primary font-bold text-xl md:text-3xl lg:text-5xl whitespace-nowrap hidden md:block">Calendario Eventi</h1>
             </div>
             <div className="w-8 md:w-12 lg:w-20"></div>
           </div>

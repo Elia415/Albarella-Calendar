@@ -5,7 +5,18 @@ export default function CalendarPage() {
     <div className="min-h-screen flex flex-col">
       <div className="flex-1">
         <div className="max-w-7xl mx-auto px-2 md:px-4 py-4 md:py-8">
-          <div className="text-center mb-4 md:mb-8 fade-in">
+          {/* Titolo grande solo su mobile */}
+          <div className="text-center mb-4 md:mb-2 fade-in block md:hidden">
+            <h1 className="text-white font-bold text-3xl drop-shadow-lg">Calendario Eventi</h1>
+          </div>
+          
+          {/* Sottotitolo claim solo su mobile */}
+          <div className="text-center mb-4 md:mb-8 fade-in block md:hidden">
+            <p className="text-sm text-white font-medium drop-shadow-lg">Non perderti nessun momento magico sull'isola</p>
+          </div>
+          
+          {/* Sottotitolo solo su desktop */}
+          <div className="text-center mb-4 md:mb-8 fade-in hidden md:block">
             <p className="text-sm md:text-lg text-white font-medium drop-shadow-lg">Non perderti nessun momento magico sull'isola</p>
           </div>
           
