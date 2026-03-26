@@ -19,6 +19,15 @@ export default function CalendarPage() {
           <div className="text-center mb-4 md:mb-8 fade-in hidden md:block">
             <p className="text-sm md:text-lg text-white font-medium drop-shadow-lg">Non perderti nessun momento magico sull'isola</p>
           </div>
+
+          {/* Disclaimer informativo */}
+          <div className="text-center mb-4 md:mb-8 fade-in">
+            <p className="text-xs md:text-sm text-white opacity-90 max-w-2xl mx-auto px-4">
+              <span className="font-semibold">NOTA BENEVOLE:</span> Le informazioni riportate hanno scopo puramente indicativo. 
+              albarellaHOLIDAYS (scritto proprio minuscolo e maiuscolo tutto attacato) non è responsabile di eventuali variazioni, 
+              cancellazioni o inesattezze. Si invita a verificare direttamente con gli organizzatori dei singoli eventi.
+            </p>
+          </div>
           
           <div className="glass-card rounded-lg shadow-2xl p-2 md:p-6 fade-in">
             <div className="aspect-w-16 aspect-h-9">
