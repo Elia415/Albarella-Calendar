@@ -37,7 +37,10 @@ export default function CalendarPage() {
       <footer className="glass-footer text-white py-4 md:py-6 px-4 md:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-xs mt-2 opacity-75">
-            © 2026 albarellaHOLIDAYS. Tutti i diritti riservati.
+            I contenuti presenti sono forniti a titolo puramente indicativo. albarellaHOLIDAYS declina ogni responsabilità per eventuali modifiche, annullamenti o imprecisioni. Si raccomanda vivamente di consultare gli organizzatori ufficiali per confermare i dettagli dei singoli eventi.
+          </p>
+          <p className="text-xs mt-2 opacity-75">
+            © 2026 Albarella Holidays. Tutti i diritti riservati.
           </p>
         </div>
       </footer>
