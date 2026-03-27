@@ -32,7 +32,7 @@ export default function CalendarPage() {
           </div>
 
           {/* Disclaimer tra calendario e footer */}
-          <div className="text-center my-12 md:my-16 fade-in">
+          <div className="text-center mt-16 mb-12 md:mt-24 md:mb-16 fade-in">
             <p className="text-xs md:text-sm text-white opacity-90 max-w-2xl mx-auto px-4 text-center">
               Le informazioni riportate hanno scopo puramente indicativo. albarellaHOLIDAYS non è reponsabile di eventuali variazioni, cancellazioni o inesattezze. Si invita a verificare direttamente con gli organizzatori.
             </p>
